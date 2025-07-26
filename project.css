@@ -1,0 +1,159 @@
+header{
+    background-image:url("Gp048.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px;
+    padding: 0px;
+    min-height:100vh;
+    width: auto;
+    border:1px solid black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+}
+h4{
+    color:yellow;
+    text-align: center;
+    font-size:xx-large;
+}
+.nav-link li{
+    display: inline;
+}
+ul{
+    text-align: right;
+    list-style-type: none;
+}
+li{
+   display: inline;
+
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: yellow;
+}
+a:hover{
+    background-color: aqua;
+    color:red
+}
+a:active{
+    background-color: pink;
+}
+img{
+    margin: 40px 40px auto;
+    padding: 30px 30px auto;
+    border-radius: 10%;
+    width: 350px;
+    height: 350px;
+} 
+h1{
+    text-align: center;
+    text-decoration: solid;
+    font-size:50px;
+    font-style: normal;
+    position:centre;
+    color: yellow;
+}
+p{
+    text-align: center;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-shadow: 20px;
+    color:black;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+}
+.Our-Facilities h3{
+    color: black;
+    text-align: center;
+}
+.Our-Facilities p{
+    color:red;
+    font: normal;
+    margin: 5px;
+    padding: 5px;
+}
+.About{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.Our-Service p{
+    margin: 10px;
+    padding: 5px;
+    text-align: justify;
+}
+h2{
+    text-align:center;
+    font-size: xx-large;
+    margin: 20px;
+    margin-bottom: -120px;
+}
+.About img{
+    margin: 150px 150px auto;
+}
+footer{
+    margin: 2px;
+    padding: 2px;
+    min-height: 50vh;
+    width: auto;
+    
+}
+.row-foot{
+    background-color:none;
+    margin: 5px;
+    padding: 5px;
+}
+.row-foot h3{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+.foot p{
+    text-align:justify;
+    margin: 10px;
+    padding: 3px;
+}
+.Our-Service p{
+    margin: 5px;
+    padding: 5px;
+    color:black;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    text-align:center;
+}
+.Our-Offer{
+    flex-basis: 17%;
+    background: peachpuff;
+    padding: 6px 8px;
+    box-sizing:border-box;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.Our-Offer h5{
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: large;
+    color: blue;
+}
+ h6{
+    text-align: center;
+    color: blue;
+    margin: 10px;
+    padding: 10PX;
+    font-weight: bold;
+    font-size: 30px;
+}
